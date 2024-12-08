@@ -1,1 +1,16 @@
-print("Hello World")
+PRINT "Hello World"
+
+x = 100
+list = (1, 5, 20, x)
+PRINT list
+
+IF (x > 0)
+    PRINT "x greater than 0"
+ELSE
+    PRINT "x less than 0"
+END
+
+WHILE(x > 0)
+    PRINT x
+    x = x - 10
+
