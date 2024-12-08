@@ -21,6 +21,8 @@ def parse(tokens):
 
     # Simple example: Parse expressions like "3 + 5"
     def expr():
+        if current_token[0] == 'KEYWORD' and current_token[1] == 'print':
+            
         node = term()
         while current_token[0] == 'OP':
             op = current_token
